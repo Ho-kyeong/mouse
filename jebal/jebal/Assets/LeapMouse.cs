@@ -541,8 +541,6 @@ public class LeapMouse : MonoBehaviour
             extendedThumb = false;
             ILYgesture = false;
             indexCali = false;
-            indexMove = false;
-            indexPalmMove = false;
         }
 
         //index move calibration 속도 조절
@@ -608,6 +606,7 @@ public class LeapMouse : MonoBehaviour
             cali_flag = true;
         }
         //Mouse Control
+        //좌표
         else if (indexPalmMove == true)
         {
             if (cali_flag == true)
